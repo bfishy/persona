@@ -1,0 +1,52 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: #cd8c5f;
+}
+
+h1,
+h2, 
+h3, 
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    padding-top: 2rem;
+}
+
+h5 {
+    color: white; 
+}
+
+.title {
+    background-color: #365785;
+}
+
+.subtitle {
+    background-color: #365785;
+}
+
+.blankets {
+    background: url(./img/graphic-work-transparent.png) center fixed;
+    /* height: calc(100vh - 56px); */
+    height: 100vh;
+}
+
+.btn-lg:hover,
+.btn-lg:focus {
+    filter: brightness(120%)
+}
+
+.btn-lg {
+    background-color: #308492;
+}
+
+.headshot {
+    border: 0.1rem solid white;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+}
