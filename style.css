@@ -21,17 +21,20 @@ h5 {
 }
 
 .title {
-    background-color: #365785;
+    /* background-color: #365785; */
 }
 
+#title {
+    background-color: white;
+}
 .subtitle {
-    background-color: #365785;
+    /* background-color: #365785; */
 }
 
 .blankets {
-    background: url(./img/graphic-work-transparent.png) center fixed;
+    background: url(./img/graphic-work-transparent.png) center;
     /* height: calc(100vh - 56px); */
-    height: 100vh;
+    height: calc(100vh - 313px);
 }
 
 .btn-lg:hover,
@@ -50,3 +53,14 @@ h5 {
     height: 8rem;
     object-fit: cover;
 }
+
+.overview-pic {
+    /* border: 0.1rem solid black; */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* .card {
+    width: 50rem;
+    height: 50rem;
+} */
