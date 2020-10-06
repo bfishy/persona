@@ -10,7 +10,8 @@ h1,
 h2, 
 h3, 
 h4,
-h5 {
+h5,
+h6 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
     color: black;
@@ -20,9 +21,6 @@ h2 {
     padding-top: 2rem;
 }
 
-h5 {
-    color: white; 
-}
 
 #title {
     background-color: white;
@@ -91,4 +89,8 @@ img.divider{
 
 .section-head {
     display: inline;
+}
+
+.inter {
+    background-color: #f8e6cd;
 }
