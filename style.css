@@ -4,12 +4,16 @@ body {
     background-color: #cd8c5f;
 }
 
+/* #CD8C5F
+#217780 */
 h1,
 h2, 
 h3, 
-h4 {
+h4,
+h5 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
+    color: black;
 }
 
 h2 {
@@ -58,13 +62,33 @@ h5 {
 }
 
 img.divider{
-    margin: 2rem auto 5rem auto !important; 
+    margin: 2rem auto 3rem auto !important; 
 }
 
 .question {
     margin-bottom: 4rem;
+    color: black;
+}
+
+.subquestion {
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    color: black;
 }
 
 .questions-box {
     margin-left: 10rem;
+}
+.short-summary {
+    margin: 0rem 8rem 5rem 8rem; 
+}
+
+.icon {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+}
+
+.section-head {
+    display: inline;
 }
