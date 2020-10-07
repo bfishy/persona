@@ -14,13 +14,13 @@
   </head>
   <body>
 
-    <div id="title" class="container-fluid bg-white py-5">
-      <div class="d-flex flex-column justify-content-center align-items-center">
-        <h1 class="title display-2 mx-5 mb-5 pb-2">Persona & Storyboarding Design</h1>
-        <img src="img/div.png" alt="text divider" class="mb-5" style="width: 3.5rem; height: 1rem;">
-        <h3 class="subtitle text-center mx-5"> Constructing personas and user experience storyboards for public-view interfaces</h3>
-      </div>
+    <!-- <div id="title" class="container-fluid bg-white py-5"> -->
+    <div class="d-flex flex-column justify-content-center align-items-center bg-white py-5">
+      <h1 class="title display-2 mx-5 mb-5 pb-2">Persona & Storyboarding Design</h1>
+      <img src="img/div.png" alt="text divider" class="mb-5" style="width: 3.5rem; height: 1rem;">
+      <h3 class="subtitle text-center mx-5"> Constructing personas and user experience storyboards for public-view interfaces</h3>
     </div>
+    <!-- </div> -->
 
     <div class="d-flex flex-column blankets"></div>
 
@@ -151,7 +151,7 @@
         using the ticketing kiosk. The questions mainly focus on providing insights on aspects such as the smoothness of user flow, whether the interface is 
         intuitive enough, and if it provides sufficient assisstance to users who may not be familiar with the process. 
       </h5>
-      <div class="questions-box container-flex text-left">
+      <div class="questions-box container-fluid text-left justify-content-start">
         <h3 class="question">1. Why are you using the ticketing kiosk instead of a metro card?</h3>
         <h3 class="question">2. On a scale from 1-10, how easy is it for you to buy a ticket from the ticketing kiosk? Why?</h3>
         <h3 class="question">3. On a scale from 1-10, how helpful were the instructions on the screen in navigating the process? Why?</h3>
@@ -180,9 +180,11 @@
                     Key Observations
                   </h4>
                 </div>
-                <h5 class="subquestion">- Walks up to the ticketing machine, briefly skims the fare map</h5>
-                <h5 class="subquestion">- Walks through the each step quickly, seemingly without reading the instructions on the screen</h5>
-                <h5 class="subquestion">- Process of buying ticket is complete within half a minute</h5>
+                <div class="container-fluid observation-box ml-0">
+                  <h5 class="subquestion">- Walks up to the ticketing machine, briefly skims the fare map</h5>
+                  <h5 class="subquestion">- Walks through the each step quickly, seemingly without reading the instructions on the screen</h5>
+                  <h5 class="subquestion">- Process of buying ticket is complete within half a minute</h5>
+                </div>
               </div>
               <div class="row interview-result text-left">
                 <div class="container section-head mt-4">
@@ -191,11 +193,13 @@
                     Interview Results
                   </h4>
                 </div>
-                <h5 class="subquestion">User A explained that he approached the kiosk because he forgot to bring his metro card with him, and 
-                  needs to purchase a one-way ticket.</h5>
-                <h5 class="subquestion">He thinks the kiosk is really simple to use, and the instructions are quite helpful, 
-                  though, as someone who takes the metro regularly and has forgotten to bring his card with him several times, he doesn't really 
-                  need the instructions to know how to buy a one-way ticket. </h5>
+                <div class="container-fluid observation-box ml-0">
+                  <h5 class="subquestion">User A explained that he approached the kiosk because he forgot to bring his metro card with him, and 
+                    needs to purchase a one-way ticket.</h5>
+                  <h5 class="subquestion">He thinks the kiosk is really simple to use, and the instructions are quite helpful, 
+                    though, as someone who takes the metro regularly and has forgotten to bring his card with him several times, he doesn't really 
+                    need the instructions to know how to buy a one-way ticket. </h5>
+                </div>
               </div>
             </div>
           </div>
@@ -213,10 +217,12 @@
                     Key Observations
                   </h4>
                 </div>
-                <h5 class="subquestion">- Reads the process instructions on kiosk start page that most people skip</h5>
-                <h5 class="subquestion">- Takes longer at each step, skims the entire screen before proceeding</h5>
-                <h5 class="subquestion">- Checks fare map multiple times before picking price on screen</h5>
-                <h5 class="subquestion">- Takes around 1.5 minutes to complete the process, longer than an average user</h5>
+                <div class="container-fluid observation-box ml-0">
+                  <h5 class="subquestion">- Reads the process instructions on kiosk start page that most people skip</h5>
+                  <h5 class="subquestion">- Takes longer at each step, skims the entire screen before proceeding</h5>
+                  <h5 class="subquestion">- Checks fare map multiple times before picking price on screen</h5>
+                  <h5 class="subquestion">- Takes around 1.5 minutes to complete the process, longer than an average user</h5>
+                </div>
               </div>
               <div class="row interview-result text-left">
                 <div class="container section-head mt-4">
@@ -225,19 +231,21 @@
                     Interview Results
                   </h4>
                 </div>
-                <h5 class="subquestion">
-                  User B purchased a one-way ticket from the kiosk because she doesn't take the metro that often, and does not
-                  have a metro card.
-                </h5>
-                <h5 class="subquestion">
-                  While she thinks the kiosk took a short while to figure out, it was a simple enough interface to learn. 
-                  The instructions given on each page were very helpful, allowing her to navigate through the process by herself.
-                </h5>
-                <h5 class="subquestion">
-                  She also noted that the most challenging aspect of purchasing the ticket, if any, was when she was trying to find 
-                  the stop she wants on the fare map; the words and numbers are too small to read from and was the step that took her 
-                  the most time.
-                </h5>
+                <div class="container-fluid observation-box ml-0">
+                  <h5 class="subquestion">
+                    User B purchased a one-way ticket from the kiosk because she doesn't take the metro that often, and does not
+                    have a metro card.
+                  </h5>
+                  <h5 class="subquestion">
+                    While she thinks the kiosk took a short while to figure out, it was a simple enough interface to learn. 
+                    The instructions given on each page were very helpful, allowing her to navigate through the process by herself.
+                  </h5>
+                  <h5 class="subquestion">
+                    She also noted that the most challenging aspect of purchasing the ticket, if any, was when she was trying to find 
+                    the stop she wants on the fare map; the words and numbers are too small to read from and was the step that took her 
+                    the most time.
+                  </h5>
+                </div>
               </div>
             </div>
           </div>
@@ -255,9 +263,11 @@
                     Key Observations
                   </h4>
                 </div>
-                <h5 class="subquestion">- Pauses at each screen and leans in closer than other users to read from the screen</h5>
-                <h5 class="subquestion">- When prompted to select the price, stares up at the fare map for around 1 minute, taking significantly longer than others</h5>
-                <h5 class="subquestion">- Process of buying a ticket takes roughly 2 minutes</h5>
+                <div class="container-fluid observation-box ml-0">
+                  <h5 class="subquestion">- Pauses at each screen and leans in closer than other users to read from the screen</h5>
+                  <h5 class="subquestion">- When prompted to select the price, stares up at the fare map for around 1 minute, taking significantly longer than others</h5>
+                  <h5 class="subquestion">- Process of buying a ticket takes roughly 2 minutes</h5>
+                </div>
               </div>
               <div class="row interview-result text-left">
                 <div class="container section-head mt-4">
@@ -266,19 +276,21 @@
                     Interview Results
                   </h4>
                 </div>
-                <h5 class="subquestion">
-                  User C, a foreign backpacker, purchased a one-way ticket from the ticketing kiosk because he is touring in Taipei, and has not taken
-                  the metro before, therefore does not have a metro card (or experience buying a one-way ticket either)
-                </h5>
-                <h5 class="subquestion">
-                  The process of figuring out how to buy a ticket from the kiosk "was okay". He thinks that while it doesn't require a lot of steps, 
-                  the English version of the interface was presented as a mix of Madarin annotated with English, with the English portion 
-                  being significantly smaller and therfore harder to read.
-                </h5>
-                <h5 class="subquestion">
-                  He also thinks that the most difficult step was figuring out what ticket price to select based on the fare map. The fare map is messy and 
-                  unorganized for a first-time rider, as he doesn't know which line/area his stop is on/in. Having small english names for stop names only made it harder. 
-                </h5>
+                <div class="container-fluid observation-box ml-0">
+                  <h5 class="subquestion">
+                    User C, a foreign backpacker, purchased a one-way ticket from the ticketing kiosk because he is touring in Taipei, and has not taken
+                    the metro before, therefore does not have a metro card (or experience buying a one-way ticket either)
+                  </h5>
+                  <h5 class="subquestion">
+                    The process of figuring out how to buy a ticket from the kiosk "was okay". He thinks that while it doesn't require a lot of steps, 
+                    the English version of the interface was presented as a mix of Madarin annotated with English, with the English portion 
+                    being significantly smaller and therfore harder to read.
+                  </h5>
+                  <h5 class="subquestion">
+                    He also thinks that the most difficult step was figuring out what ticket price to select based on the fare map. The fare map is messy and 
+                    unorganized for a first-time rider, as he doesn't know which line/area his stop is on/in. Having small english names for stop names only made it harder. 
+                  </h5>
+                </div>
               </div>
             </div>
           </div>
@@ -351,21 +363,13 @@
       <h5 class="short-caption text-dark">
         Shown below is a user journey for <b>Calm Caroline</b>, where she is navigating the process of using a ticketing kiosh as the metro station 
       </h5>
-      <div class="container-flex">
+      <div class="container-fluid">
         <div class="card h-100">
           <div class="card-header">
             <h3>Calm Caroline at the Ticketing Kiosk</h3>
           </div>
           <div class="card-body">
-            <img class="overview-pic my-2" src="img/storyboard.png" alt="">
-            <!-- <div class="card-text pt-4 pb-2 lead text-left">
-              <p>
-                <b>Rushy Rudy</b> typically faces no problem buying a one-way ticket from a ticketing kiosk.
-              </p>
-              <p>
-                He represents the individuals who use the metro system on a near daily basis, typically students & people who commute to work, etc.
-              </p>
-            </div> -->
+            <img class="overview-pic my-2" src="img/storyboard.png" alt="storybaord">
           </div>
         </div>
       </div>
